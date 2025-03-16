@@ -38,6 +38,7 @@ The analysis distinctly highlights the impressive market performance of family-o
 
 
 
+<img width="935" alt="TAJ--TMAXX Project Dashboard done by Temitayo Adeyela" src="https://github.com/user-attachments/assets/2f9fb510-f4fb-4bd0-83e0-f0f42db4f5cb" />
 
 
 
