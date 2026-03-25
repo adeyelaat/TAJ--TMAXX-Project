@@ -1,0 +1,21 @@
+import NavBar from "@/components/cv/NavBar";
+import HeroSection from "@/components/cv/HeroSection";
+import SkillsSection from "@/components/cv/SkillsSection";
+import ExperienceSection from "@/components/cv/ExperienceSection";
+import EducationSection from "@/components/cv/EducationSection";
+import ProjectsSection from "@/components/cv/ProjectsSection";
+import FooterSection from "@/components/cv/FooterSection";
+
+export default function Index() {
+  return (
+    <div className="min-h-screen bg-background font-display">
+      <NavBar />
+      <HeroSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <EducationSection />
+      <ProjectsSection />
+      <FooterSection />
+    </div>
+  );
+}
