@@ -1,0 +1,64 @@
+Understanding how water resources change over time is critical for sustainable environmental management. This project investigates spatial and temporal changes in water distribution and soil moisture in the Mecklenburg region of Germany using advanced Geographic Information Systems (GIS) and remote sensing techniques.
+
+The study integrates multi-temporal satellite data and geospatial analysis to evaluate environmental changes, identify driving factors, and assess the feasibility of remote sensing methods for soil moisture estimation.
+
+Objectives
+The project was designed to address key environmental and technical questions:
+
+Analyze land use/land cover (LULC) changes over time
+Assess spatial and temporal variations in water bodies
+Estimate and map soil moisture distribution
+Evaluate the effectiveness of remote sensing techniques (NDVI, LST)
+Compare satellite-derived results with ground-based data
+Data & Study Area
+The analysis focused on the Mecklenburg region, particularly around Lake Tollensesee. Multi-source satellite imagery was used:
+
+Landsat 5 (1986)
+Landsat 7 (2008)
+Landsat 8 (2018)
+Sentinel-2 (2018)
+Ground soil moisture data from German Weather Service (DWD)
+These datasets enabled long-term environmental monitoring and cross-validation
+
+Methodology
+1. Image Preprocessing
+Radiometric and geometric corrections
+Image enhancement
+Cloud-free summer imagery selection
+2. Image Analysis
+LULC Classification using supervised classification
+NDVI (Normalized Difference Vegetation Index) for vegetation health
+LST (Land Surface Temperature) derived from thermal bands
+3. Soil Moisture Estimation
+The study applied the Triangle Method, which combines NDVI and LST to estimate soil moisture:
+
+High NDVI + Low LST → Higher soil moisture
+Low NDVI + High LST → Lower soil moisture
+Key Findings
+? Land Use & Water Distribution Changes
+Water bodies decreased over time
+Vegetation declined, indicating deforestation and land conversion
+Urban areas expanded significantly, driven by population growth
+Bare land fluctuated, reflecting construction and land transformation
+These changes highlight the strong impact of urbanization and human activities on natural resources.
+
+Soil Moisture & Temperature Relationship
+Soil moisture is inversely related to temperature
+Higher temperatures lead to increased evaporation and reduced moisture
+Remote sensing results showed strong correlation with ground data, validating the method
+Remote Sensing Insights
+The Triangle Method proved effective for soil moisture estimation
+Landsat data was reliable for environmental monitoring
+Sentinel-2 limitations: lacks thermal bands, making LST calculation impossible
+Conclusion
+This study demonstrates that remote sensing and GIS are powerful tools for monitoring environmental change. The integration of NDVI and LST provides a cost-effective and scalable approach to estimating soil moisture without extensive fieldwork.
+
+The results confirm that:
+
+Soil moisture can be accurately estimated using satellite data
+Urban expansion significantly impacts water distribution
+Remote sensing is essential for sustainable water resource management
+Project Details
+Client:
+Date: Jan 27, 2019
+Technologies: QGIS ArcGIS USGS Earth Explorer ESA Sentinel Hub Raster 
